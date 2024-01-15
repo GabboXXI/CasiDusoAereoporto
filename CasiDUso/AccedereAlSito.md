@@ -49,7 +49,3 @@ Il caso d'uso termina quando l'utente autenticato è reindirizzato alla home pag
 - (Nessuna generalizzazione)
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
