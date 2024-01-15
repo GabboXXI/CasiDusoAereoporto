@@ -1,7 +1,4 @@
-echo "# CasiDusoAereoporto" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/GabboXXI/CasiDusoAereoporto.git
-git push -u origin main
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
