@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paginaWebAereoporto>
+    <aereoporto>
+        <name>Nome dell'aeroporto</name>
+        <location>
+            <city>Perugia</city>
+        </location>
+        <casoDuso>
+            <name>Prenotazione Lounge</name>
+            <description>Prenotazione dell'accesso a una lounge dell'aeroporto.</description>
+            <Scopo>Consentire agli utenti registrati e agli amministratori di prenotare l'accesso a una lounge.</Scopo>
+            <Attori>
+                <Attore>Utente registrato</Attore>
+                <Attore>Amministratore</Attore>
+            </Attori>
+            <AttorePrimario>Utente registrato</AttorePrimario>
+            <UseCaseExtend>Gestire voli</UseCaseExtend>
+            <ScenarioPrincipale>Un utente registrato con un volo già comprato, è interessato a usufruire della lounge dell'aeroporto.</ScenarioPrincipale>
+            <EntryCondition>Il caso d'uso inizia quando un utente registrato decide di prenotare l'accesso a una lounge.</EntryCondition>
+            <FlussoEventi>
+                <Evento>L'utente accede alla sezione "Prenotazione Lounge" del sito.</Evento>
+                <Evento>Seleziona la lounge desiderata.</Evento>
+                <Evento>Sceglie la data e l'orario di accesso.</Evento>
+                <Evento>Conferma la prenotazione.</Evento>
+            </FlussoEventi>
+            <ExitCondition>Il caso d'uso termina quando il sistema registra con successo la prenotazione dell'accesso alla lounge.</ExitCondition>
+            <ScenariAlternativi>
+                <Alternativo>Se la lounge è piena per la data e l'orario desiderati, il sistema mostra un messaggio informativo e l'utente può scegliere un'altra data o orario.</Alternativo>
+            </ScenariAlternativi>
+            <FlussiAlternativi>
+                <Alternativo>Se il sistema riscontra problemi tecnici durante la prenotazione, viene visualizzato un messaggio di errore generico.</Alternativo>
+            </FlussiAlternativi>
+            <Eccezioni>
+                <Eccezione>Se il sistema è in manutenzione, viene visualizzato un messaggio informativo e l'utente non può effettuare la prenotazione temporaneamente.</Eccezione>
+            </Eccezioni>
+            <RequisitiSpeciali>Il sistema deve garantire la disponibilità e la validità delle informazioni sulle lounge e gestire correttamente le prenotazioni.</RequisitiSpeciali>
+            <ExtensionPoints>
+                <ExtensionPoint>Dopo la prenotazione della lounge, l'utente può estendere il caso d'uso gestendo i voli.</ExtensionPoint>
+            </ExtensionPoints>
+            <FrequenzaStimata>Moderata: Gli utenti potrebbero effettuare la prenotazione sporadicamente in base alle necessità di viaggio.</FrequenzaStimata>
+            <Criticità>Bassa: La prenotazione della lounge è una funzionalità importante, ma non critica per la sicurezza del sistema.</Criticità>
+            <SpecializzaCasoUso>(Nessuna specializzazione)</SpecializzaCasoUso>
+            <GeneralizzaCasoUso>(Nessuna generalizzazione)</GeneralizzaCasoUso>
+        </casoDuso>
+    </aereoporto>
+</paginaWebAereoporto>
