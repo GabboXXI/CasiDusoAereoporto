@@ -10,7 +10,7 @@
 
 **Use Case d'extend:** Gestire voli
 
-**Scenario Principale:**
+**Scenario Principale:** Un utente registrato con un volo già comprato, è interessato a usufruire della lounge dell'aereoporto
 1. **Entry Condition:** Il caso d'uso inizia quando un utente registrato decide di prenotare l'accesso a una lounge.
 2. **Flusso di Eventi:**
    - L'utente accede alla sezione "Prenotazione Lounge" del sito.
