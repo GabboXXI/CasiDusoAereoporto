@@ -10,7 +10,7 @@
 
 **Use Case d'extend:** Check-in online
 
-**Scenario Principale:**
+**Scenario Principale:** Un utente qualsiasi è interessato a vedere i voli che partono/arrivano da un aereoporto in una specifica data
 1. **Entry Condition:** Il caso d'uso inizia quando un utente decide di visualizzare i voli.
 2. **Flusso di Eventi:**
    - L'utente accede alla sezione "Visualizza Voli" del sito.
