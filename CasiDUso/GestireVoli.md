@@ -10,7 +10,9 @@
 
 **Use Case d'extend:** (Nessuno)
 
-**Scenario Principale:**
+**Scenario Principale:** La compagnia aerea scambia i dati dei propri voli all'amministratore dell'aereoporto. 
+
+Quest'ultimo provvederà a inserire tutti i dati nella sezione specifica del sito
 1. **Entry Condition:** Il caso d'uso inizia quando un amministratore o un utente registrato decide di gestire i voli.
 2. **Flusso di Eventi:**
    - L'amministratore accede alla sezione "Gestione Voli" del sistema.
