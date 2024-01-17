@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paginaWebAereoporto>
+    <aereoporto>
+        <name>Nome dell'aeroporto</name>
+        <location>
+            <city>Perugia</city>
+        </location>
+        <casoDuso>
+            <name>Gestire Voli</name>
+            <description>Gestione delle informazioni e delle operazioni legate ai voli.</description>
+            <Scopo>Consentire agli utenti registrati e agli amministratori di gestire le informazioni e le operazioni legate ai voli.</Scopo>
+            <Attori>
+                <Attore>Utente registrato</Attore>
+                <Attore>Amministratore</Attore>
+            </Attori>
+            <AttorePrimario>Amministratore</AttorePrimario>
+            <UseCaseExtend>(Nessuno)</UseCaseExtend>
+            <ScenarioPrincipale>La compagnia aerea scambia i dati dei propri voli all'amministratore dell'aeroporto. Quest'ultimo provvederà a inserire tutti i dati nella sezione specifica del sito.</ScenarioPrincipale>
+            <EntryCondition>Il caso d'uso inizia quando un amministratore o un utente registrato decide di gestire i voli.</EntryCondition>
+            <FlussoEventi>
+                <Evento>L'amministratore accede alla sezione "Gestione Voli" del sistema.</Evento>
+                <Evento>Visualizza l'elenco dei voli esistenti.</Evento>
+                <Evento>Modifica informazioni sui voli (orari, destinazioni, compagnie aeree, ecc.).</Evento>
+                <Evento>Aggiunge nuovi voli al sistema.</Evento>
+                <Evento>Cancella voli esistenti.</Evento>
+            </FlussoEventi>
+            <ExitCondition>Il caso d'uso termina quando l'amministratore completa le operazioni di gestione dei voli.</ExitCondition>
+            <ScenariAlternativi>
+                <Alternativo>L'utente registrato potrebbe avere accesso limitato alla modifica delle informazioni sui voli, principalmente per quanto riguarda la prenotazione.</Alternativo>
+            </ScenariAlternativi>
+            <FlussiAlternativi>
+                <Alternativo>Se il sistema riscontra problemi tecnici durante la gestione dei voli, viene visualizzato un messaggio di errore generico.</Alternativo>
+            </FlussiAlternativi>
+            <Eccezioni>
+                <Eccezione>Se il sistema è in manutenzione, viene visualizzato un messaggio informativo e gli utenti non possono gestire i voli temporaneamente.</Eccezione>
+            </Eccezioni>
+            <RequisitiSpeciali>Il sistema deve garantire la coerenza e la validità delle informazioni sui voli.</RequisitiSpeciali>
+            <ExtensionPoints>
+                <ExtensionPoint>Dopo la gestione dei voli, l'amministratore o l'utente registrato possono estendere il caso d'uso effettuando il check-in online o prenotando una lounge.</ExtensionPoint>
+            </ExtensionPoints>
+            <FrequenzaStimata>Moderata: Gli amministratori potrebbero gestire i voli in base alle necessità di pianificazione e aggiornamento del sistema.</FrequenzaStimata>
+            <Criticità>Alta: La gestione dei voli è una funzionalità critica per mantenere aggiornato il sistema e fornire informazioni precise agli utenti.</Criticità>
+            <SpecializzaCasoUso>(Nessuna specializzazione)</SpecializzaCasoUso>
+            <GeneralizzaCasoUso>(Nessuna generalizzazione)</GeneralizzaCasoUso>
+        </casoDuso>
+    </aereoporto>
+</paginaWebAereoporto>
