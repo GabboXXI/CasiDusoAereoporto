@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paginaWebAereoporto>
+    <aereoporto>
+        <name>Nome dell'aeroporto</name>
+        <location>
+            <city>Perugia</city>
+        </location>
+        <casoDuso>
+            <name>Iscriversi al sito</name>
+            <description>Registrazione di un nuovo utente nel sistema.</description>
+            <Scopo>Consentire agli utenti visitatori di diventare utenti registrati.</Scopo>
+            <Attori>
+                <Attore>Utente visitatore</Attore>
+            </Attori>
+            <AttorePrimario>Utente visitatore</AttorePrimario>
+            <UseCaseExtend>Accedere al sito</UseCaseExtend>
+            <ScenarioPrincipale>Un utente, dopo aver acquistato il proprio biglietto da una compagnia aerea, visita il sito dell'aeroporto per capire quale sarà il suo gate, quando potrà arrivare, quando inizierà l'imbarco, ecc...</ScenarioPrincipale>
+            <EntryCondition>Il caso d'uso inizia quando un utente visitatore decide di registrarsi.</EntryCondition>
+            <FlussoEventi>
+                <Evento>L'utente visitatore clicca sul pulsante di registrazione.</Evento>
+                <Evento>Compila il modulo di registrazione con le informazioni richieste.</Evento>
+                <Evento>Invia il modulo.</Evento>
+            </FlussoEventi>
+            <ExitCondition>Il caso d'uso termina quando il sistema registra con successo le informazioni del nuovo utente e lo autentica automaticamente nel sistema.</ExitCondition>
+            <ScenariAlternativi>
+                <Alternativo>Se l'utente inserisce informazioni non valide, il sistema mostra un messaggio di errore.</Alternativo>
+            </ScenariAlternativi>
+            <FlussiAlternativi>
+                <Alternativo>Se il sistema riscontra problemi tecnici durante la registrazione, viene visualizzato un messaggio di errore generico.</Alternativo>
+            </FlussiAlternativi>
+            <Eccezioni>
+                <Eccezione>Se il sistema è in manutenzione, viene mostrato un messaggio informativo e l'utente non può registrarsi temporaneamente.</Eccezione>
+            </Eccezioni>
+            <RequisitiSpeciali>Il sistema deve garantire la sicurezza delle informazioni durante il processo di registrazione.</RequisitiSpeciali>
+            <ExtensionPoints>
+                <ExtensionPoint>Dopo la registrazione, l'utente può estendere il caso d'uso accedendo al sito.</ExtensionPoint>
+            </ExtensionPoints>
+            <FrequenzaStimata>Frequente: Ogni volta che un utente desidera diventare un utente registrato.</FrequenzaStimata>
+            <Criticità>Alta: La registrazione è una funzionalità critica per permettere agli utenti di accedere al sistema.</Criticità>
+            <SpecializzaCasoUso>(Nessuna specializzazione)</SpecializzaCasoUso>
+            <GeneralizzaCasoUso>(Nessuna generalizzazione)</GeneralizzaCasoUso>
+        </casoDuso>
+    </aereoporto>
+</paginaWebAereoporto>
