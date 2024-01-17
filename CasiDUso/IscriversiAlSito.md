@@ -10,7 +10,9 @@
 
 **Use Case d'extend:** Accedere al sito
 
-**Scenario Principale:**
+**Scenario Principale:** Un utente dopo aver acquistato il proprio biglietto da una compagnia aerea, visita il sito dell'aereoporto
+
+per capire quale sarà il suo gate, quando potrà arrivare, quando inizirà l'imbarco, ecc...
 1. **Entry Condition:** Il caso d'uso inizia quando un utente visitatore decide di registrarsi.
 2. **Flusso di Eventi:**
    - L'utente visitatore clicca sul pulsante di registrazione.
