@@ -10,7 +10,7 @@
 
 **Use Case d'extend:** Prenotazione Lounge
 
-**Scenario Principale:**
+**Scenario Principale:** L'utente si collega al sito web dell'aeroporto per effettuare il check-in online in modo pratico e veloce.
 1. **Entry Condition:** Il caso d'uso inizia quando un utente registrato o un amministratore decide di effettuare il check-in online.
 2. **Flusso di Eventi:**
    - L'utente accede alla sezione "Check-in Online" del sito.
