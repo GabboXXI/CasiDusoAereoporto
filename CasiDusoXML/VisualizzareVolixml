@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paginaWebAereoporto>
+    <aereoporto>
+        <name>Nome dell'aeroporto</name>
+        <location>
+            <city>Perugia</city>
+        </location>
+        <casoDuso>
+            <name>Visualizzare i voli</name>
+            <description>Visualizzazione dei voli disponibili.</description>
+            <Scopo>Consentire agli utenti visitatori e registrati di visualizzare l'elenco dei voli.</Scopo>
+            <Attori>
+                <Attore>Utente visitatore</Attore>
+                <Attore>Utente registrato</Attore>
+            </Attori>
+            <AttorePrimario>Utente visitatore</AttorePrimario>
+            <UseCaseExtend>Check-in online</UseCaseExtend>
+            <ScenarioPrincipale>Un utente qualsiasi è interessato a vedere i voli che partono/arrivano da un aereoporto in una specifica data.</ScenarioPrincipale>
+            <EntryCondition>Il caso d'uso inizia quando un utente decide di visualizzare i voli.</EntryCondition>
+            <FlussoEventi>
+                <Evento>L'utente accede alla sezione "Visualizza Voli" del sito.</Evento>
+                <Evento>Il sistema mostra l'elenco dei voli disponibili.</Evento>
+            </FlussoEventi>
+            <ExitCondition>Il caso d'uso termina quando l'utente ha visualizzato l'elenco dei voli.</ExitCondition>
+            <ScenariAlternativi>
+                <Alternativo>L'utente può filtrare i voli per destinazione, data, compagnia aerea, ecc.</Alternativo>
+            </ScenariAlternativi>
+            <FlussiAlternativi>
+                <Alternativo>Se il sistema riscontra problemi tecnici durante la visualizzazione dei voli, viene mostrato un messaggio di errore generico.</Alternativo>
+            </FlussiAlternativi>
+            <Eccezioni>
+                <Eccezione>Se il sistema è in manutenzione, viene visualizzato un messaggio informativo e l'utente non può visualizzare l'elenco dei voli temporaneamente.</Eccezione>
+            </Eccezioni>
+            <RequisitiSpeciali>Il sistema deve garantire la disponibilità e l'aggiornamento in tempo reale delle informazioni sui voli.</RequisitiSpeciali>
+            <ExtensionPoints>
+                <ExtensionPoint>Dopo la visualizzazione dei voli, l'utente può estendere il caso d'uso effettuando il check-in online.</ExtensionPoint>
+            </ExtensionPoints>
+            <FrequenzaStimata>Frequente: Ogni volta che un utente desidera consultare l'elenco dei voli disponibili.</FrequenzaStimata>
+            <Criticità>Media: La visualizzazione dei voli è una funzionalità importante ma non critica per la sicurezza del sistema.</Criticità>
+            <SpecializzaCasoUso>(Nessuna specializzazione)</SpecializzaCasoUso>
+            <GeneralizzaCasoUso>(Nessuna generalizzazione)</GeneralizzaCasoUso>
+        </casoDuso>
+    </aereoporto>
+</paginaWebAereoporto>
